@@ -74,7 +74,8 @@ const Dashboard = () => {
 
         <div className="section">
             <h2 className="category-title">Recent Orders</h2>
-            {renderTable(recentOrders, ['title', 'Orders', 'Total', 'Status'])}
+            {renderTable(recentOrders, ['Title', 'Orders', 'Total', 'Status'])}
+
         </div>
     </div>
   )
