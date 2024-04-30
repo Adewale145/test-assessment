@@ -8,59 +8,102 @@
   background-color: #f9f9f9;
 }
 
-.form {
-    margin-bottom: 10px;
-  }
-  
-  .label {
-    display: block;
-    margin-bottom: 5px;
-  }
+form {
+  margin-bottom: 10px;
+}
 
-  input[type="text"],
-  input[type="password"] {
-  width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  outline: none;
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+outline: none;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
 }
 
 button {
-    width: 100%;
-    padding: 8px 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+  width: 105%;
+  padding: 8px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+.table-container {
+  overflow-x: auto;
 
-  .dashboard-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .section {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .section h2 {
-    margin-top: 0;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
+}
+
+.dash-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.category-title{
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.product-form {
+  width: 300px;
+  margin: auto;
+}
+
+.product-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.product-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-btn:hover{
+  background-color: #45a049;
+}
+
